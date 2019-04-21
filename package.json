@@ -1,0 +1,25 @@
+{
+  "name": "chaincodetemplate",
+  "version": "1.0.0",
+  "description": "A template for creating chaincode for Hyperledger Fabric Node.js environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhikalra/ChaincodeTemplate.git"
+  },
+  "keywords": [
+    "Hyperledger",
+    "Javascript",
+    "Node.js",
+    "Fabric"
+  ],
+  "author": "Abhinav Kalra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhikalra/ChaincodeTemplate/issues"
+  },
+  "homepage": "https://github.com/Abhikalra/ChaincodeTemplate#readme"
+}
