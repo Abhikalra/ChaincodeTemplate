@@ -1,0 +1,32 @@
+{
+  "INCORRECT_PARAMETERS_PASSED": {
+    "name": "INCORRECT_PARAMETERS_PASSED",
+    "message": "Parameters passed to chaincode are invalid/incorrect.",
+    "statusCode": 400
+  },
+  "VALIDATION_ERRORS_ENCOUNTERED": {
+    "name": "VALIDATION_ERRORS_ENCOUNTERED",
+    "message": "Validation errors were encountered while parsing the provided data to chaincode.",
+    "statusCode": 400
+  },
+  "UNKNOWN_METHOD_ERROR": {
+    "name": "UNKNOWN_METHOD_ERROR",
+    "message": "The provided function name/ method does not exist.",
+    "statusCode": 400
+  },
+  "UNKNOWN_CHAINCODE_OPERATION_TYPE": {
+    "name": "UNKNOWN_CHAINCODE_OPERATION_TYPE",
+    "message": "The provided chaincode operation does not exist. It should be of the type 'invoke' or 'query'.",
+    "statusCode": 400
+  },
+  "CHAINCODE_ERROR": {
+    "name": "CHAINCODE_ERROR",
+    "message": "A chaincode error occured while processing the transaction.",
+    "statusCode": 500
+  },
+  "KEY_NOT_FOUND": {
+    "name": "KEY_NOT_FOUND",
+    "message": "The provided record id/key could not be found.",
+    "statusCode": 404
+  }
+}
