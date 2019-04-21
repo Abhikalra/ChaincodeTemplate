@@ -6,7 +6,7 @@ const _ = require('lodash')
  * Formats the errors from the error.json.
  * @param {String} name - The name of the error to be logged.
  * @param {Object} data - The object to be added to the error object.
- * @return {String} - The error object as a string value.
+ * @return {Error} - The error object.
  */
 module.exports = (name, data) => {
   const error = new Error()

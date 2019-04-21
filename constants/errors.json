@@ -28,5 +28,10 @@
     "name": "KEY_NOT_FOUND",
     "message": "The provided record id/key could not be found.",
     "statusCode": 404
+  },
+  "UNKNOWN_DATA_CATEGORY": {
+    "name": "UNKNOWN_DATA_CATEGORY",
+    "message": "The provided data/asset category cannot be found or is incorrect.",
+    "statusCode": 404
   }
 }

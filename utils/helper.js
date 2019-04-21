@@ -62,7 +62,7 @@ module.exports = {
   /**
   * Deletes key from blockchain state store
   * @param {ChaincodeStub} stub Chaincode stub
-  * @param {String} key Unique key to store the data
+  * @param {String} key Unique key of the data
   * @param {String} documentType Record/document type
   */
   deleteData(stub, documentType, key) {
