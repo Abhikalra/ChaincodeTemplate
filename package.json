@@ -2,9 +2,19 @@
   "name": "chaincodetemplate",
   "version": "1.0.0",
   "description": "A template for creating chaincode for Hyperledger Fabric Node.js environment.",
-  "main": "index.js",
+  "engines": {
+    "node": ">=8.4.0",
+    "npm": ">=5.3.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node myChaincode.js"
+  },
+  "engine-strict": true,
+  "engineStrict": true,
+  "dependencies": {
+    "fabric-shim": "1.4.0",
+    "joi": "^10.4.1",
+    "lodash": "^4.17.11"
   },
   "repository": {
     "type": "git",
